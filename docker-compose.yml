@@ -11,7 +11,7 @@ services:
       - "9000:9000" # https://engsep.duckdns.org:9000 (Portainer)
     volumes:
       - ./conf:/etc/caddy
-      - ./site:/srv
+      - ./docs:/srv
       - caddy_data:/data
       - caddy_config:/config
     environment:
