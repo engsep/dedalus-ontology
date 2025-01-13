@@ -1,23 +1,6 @@
-services:
-  caddy:
-    image: caddy:latest
-    container_name: caddy
-    cap_add:
-      - NET_ADMIN
-    ports:
-      - "80:80"     # https://engsep.duckdns.org (Web server)
-      - "443:443"
-      - "443:443/udp"
-      - "9000:9000" # https://engsep.duckdns.org:9000 (Portainer)
-    volumes:
-      - ./conf:/etc/caddy
-      - ./docs:/srv
-      - caddy_data:/data
-      - caddy_config:/config
-    environment:
-      - "TZ=Europe/Rome"
-    restart: unless-stopped
+version: '3'
 
+services:
   # curl -s "https://cloudflare-dns.com/dns-query?name=engsep.duckdns.org&type=AAAA" -H "accept: application/dns-json"
   duckdns:
     image: lscr.io/linuxserver/duckdns:latest # ghcr.io/linuxserver/duckdns
@@ -31,23 +14,54 @@ services:
       - TOKEN=c2b414eb-7d11-44c7-ad23-0547a2de4bb0 # https://www.duckdns.org/domains (engsep@github)
       - UPDATE_IP=both #optional (default: ipv4)
     # - LOG_FILE=false #optional
-  # volumes:
-  #   - ./config:/config #optional
+    # volumes:
+    #   - ./config:/config #optional
     restart: unless-stopped
+
+  nodered:
+    image: nodered/node-red:latest
+    container_name: nodered
+    ports:
+      - "1880:1880"
+    volumes:
+      - nodered_data:/data
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./certbot/conf:/etc/letsencrypt
+      - ./certbot/www:/var/www/certbot
+      - ./docs:/usr/share/nginx/html/dedalus-ontology
+
+# Initialization:
+# docker run --rm -p 80:80 -v $(pwd)/certbot/conf:/etc/letsencrypt certbot/certbot \
+# certonly --standalone -d engsep.duckdns.org --register-unsafely-without-email --agree-tos --non-interactive
+  certbot:
+    image: certbot/certbot:latest
+    container_name: certbot
+    volumes:
+      - ./certbot/conf:/etc/letsencrypt
+      - ./certbot/www:/var/www/certbot
+    entrypoint: /bin/sh -c "trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;"
 
   portainer:
     image: portainer/portainer-ce:latest
     container_name: portainer
     ports:
       - "8000:8000"
-    # - "9000:9000"
-    # - "9443:9443" # self-certificate
+    # - "9000:9000" # http://engsep.duckdns.org:9000/#!/home
+    # - "9443:9443" # https://engsep.duckdns.org:9443/#!/home (self-certificate)
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
-      - portainer_data:/data
+      - ./portainer_data:/data # admin|123
+    command: -H unix:///var/run/docker.sock
     restart: unless-stopped
 
 volumes:
-  caddy_data:
-  caddy_config:
-  portainer_data:
+  nodered_data:
+# portainer_data:
