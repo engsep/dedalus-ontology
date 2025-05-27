@@ -871,6 +871,454 @@ xsd:duration rdf:type rdfs:Datatype .
                                                                     rdfs:label "time series time aggregation function" .
 
 
+###  https://engsep.github.io/dedalus-ontology/index-en.html#asset_description
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_description> rdf:type owl:DatatypeProperty ;
+                                                                            rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> ;
+                                                                            rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#asset_flexibility_asset
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_flexibility_asset> rdf:type owl:DatatypeProperty ;
+                                                                                  rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#asset_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_id> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> ;
+                                                                   rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#asset_latitude
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_latitude> rdf:type owl:DatatypeProperty ;
+                                                                         rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#asset_longitude
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_longitude> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#asset_max_power
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_max_power> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> ;
+                                                                          rdfs:range owl:real .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#asset_name
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_name> rdf:type owl:DatatypeProperty ;
+                                                                     rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> ;
+                                                                     rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#asset_properties
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_properties> rdf:type owl:DatatypeProperty ;
+                                                                           rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#asset_type
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_type> rdf:type owl:DatatypeProperty ;
+                                                                     rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#asset_uid
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_uid> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> ;
+                                                                    rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#asset_user_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_user_id> rdf:type owl:DatatypeProperty ;
+                                                                        rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> ;
+                                                                        rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_id> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity> ;
+                                                                              rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_timestamp
+<https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_timestamp> rdf:type owl:DatatypeProperty ;
+                                                                                     rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity> ;
+                                                                                     rdfs:range xsd:dateTimeStamp .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_value
+<https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_value> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#community_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#community_id> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Community> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#community_name
+<https://engsep.github.io/dedalus-ontology/index-en.html#community_name> rdf:type owl:DatatypeProperty ;
+                                                                         rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Community> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_asset_uid
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_asset_uid> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_id> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> ;
+                                                                       rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_id> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> ;
+                                                                              rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_name
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_name> rdf:type owl:DatatypeProperty ;
+                                                                                rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> ;
+                                                                                rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_server_timestamp
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_server_timestamp> rdf:type owl:DatatypeProperty ;
+                                                                                     rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> ;
+                                                                                     rdfs:range xsd:dateTimeStamp .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_timestamp
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_timestamp> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> ;
+                                                                              rdfs:range xsd:dateTimeStamp .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_unit
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_unit> rdf:type owl:DatatypeProperty ;
+                                                                         rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_value
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_value> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#device_asset_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#device_asset_id> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:domain <https://w3id.org/dco#Device> ;
+                                                                          rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#device_description
+<https://engsep.github.io/dedalus-ontology/index-en.html#device_description> rdf:type owl:DatatypeProperty ;
+                                                                             rdfs:domain <https://w3id.org/dco#Device> ;
+                                                                             rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#device_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#device_id> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:domain <https://w3id.org/dco#Device> ;
+                                                                    rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_data_json
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_data_json> rdf:type owl:DatatypeProperty ;
+                                                                                       rdfs:domain <https://w3id.org/dco#ElectricityConsumptionEnergyPropertyAffordance> ,
+                                                                                                   <https://w3id.org/dco#ElectricityConsumptionPowerPropertyAffordance> ,
+                                                                                                   <https://w3id.org/dco#ElectricityProductionEnergyPropertyAffordance> ,
+                                                                                                   <https://w3id.org/dco#ElectricityProductionPowerPropertyAffordance> ;
+                                                                                       rdfs:range xsd:dateTime .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_id> rdf:type owl:DatatypeProperty ;
+                                                                                rdfs:domain <https://w3id.org/dco#ElectricityConsumptionEnergyPropertyAffordance> ,
+                                                                                            <https://w3id.org/dco#ElectricityConsumptionPowerPropertyAffordance> ,
+                                                                                            <https://w3id.org/dco#ElectricityProductionEnergyPropertyAffordance> ,
+                                                                                            <https://w3id.org/dco#ElectricityProductionPowerPropertyAffordance> ;
+                                                                                rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_valid_for_date
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_valid_for_date> rdf:type owl:DatatypeProperty ;
+                                                                                            rdfs:domain <https://w3id.org/dco#ElectricityConsumptionEnergyPropertyAffordance> ,
+                                                                                                        <https://w3id.org/dco#ElectricityConsumptionPowerPropertyAffordance> ,
+                                                                                                        <https://w3id.org/dco#ElectricityProductionEnergyPropertyAffordance> ,
+                                                                                                        <https://w3id.org/dco#ElectricityProductionPowerPropertyAffordance> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_amount
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_amount> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> ;
+                                                                                 rdfs:range xsd:double .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_asset_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_asset_id> rdf:type owl:DatatypeProperty ;
+                                                                                   rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> ;
+                                                                                   rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_charged
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_charged> rdf:type owl:DatatypeProperty ;
+                                                                                  rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_connector_pk
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_connector_pk> rdf:type owl:DatatypeProperty ;
+                                                                                       rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_duration
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_duration> rdf:type owl:DatatypeProperty ;
+                                                                                   rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_fee
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_fee> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_id> rdf:type owl:DatatypeProperty ;
+                                                                             rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> ;
+                                                                             rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_amount
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_amount> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> ;
+                                                                                      rdfs:range xsd:double .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_duration
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_duration> rdf:type owl:DatatypeProperty ;
+                                                                                        rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_fee
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_fee> rdf:type owl:DatatypeProperty ;
+                                                                                   rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_location_pk
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_location_pk> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_pk
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_pk> rdf:type owl:DatatypeProperty ;
+                                                                             rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_started_at
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_started_at> rdf:type owl:DatatypeProperty ;
+                                                                                     rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> ;
+                                                                                     rdfs:range xsd:dateTime .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_stop_reason
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_stop_reason> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> ;
+                                                                                      rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_asset_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_asset_id> rdf:type owl:DatatypeProperty ;
+                                                                               rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_buyer
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_buyer> rdf:type owl:DatatypeProperty ;
+                                                                                     rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_id> rdf:type owl:DatatypeProperty ;
+                                                                                  rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_request_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_request_id> rdf:type owl:DatatypeProperty ;
+                                                                                          rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_seller
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_seller> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_status
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_status> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_end_time
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_end_time> rdf:type owl:DatatypeProperty ;
+                                                                               rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> ;
+                                                                               rdfs:range xsd:dateTime .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_id> rdf:type owl:DatatypeProperty ;
+                                                                         rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_buyer
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_buyer> rdf:type owl:DatatypeProperty ;
+                                                                                  rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_contract_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_contract_id> rdf:type owl:DatatypeProperty ;
+                                                                                        rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_id> rdf:type owl:DatatypeProperty ;
+                                                                               rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_price
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_price> rdf:type owl:DatatypeProperty ;
+                                                                                  rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_status
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_status> rdf:type owl:DatatypeProperty ;
+                                                                                   rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_value
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_value> rdf:type owl:DatatypeProperty ;
+                                                                                  rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_end_date
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_end_date> rdf:type owl:DatatypeProperty ;
+                                                                                       rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> ;
+                                                                                       rdfs:range xsd:dateTime .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_id> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_start_date
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_start_date> rdf:type owl:DatatypeProperty ;
+                                                                                         rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> ;
+                                                                                         rdfs:range xsd:dateTime .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_substation
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_substation> rdf:type owl:DatatypeProperty ;
+                                                                                         rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_value
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_value> rdf:type owl:DatatypeProperty ;
+                                                                                    rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_start_time
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_start_time> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> ;
+                                                                                 rdfs:range xsd:dateTime .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_status
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_status> rdf:type owl:DatatypeProperty ;
+                                                                             rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_unit
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_unit> rdf:type owl:DatatypeProperty ;
+                                                                           rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_value
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_value> rdf:type owl:DatatypeProperty ;
+                                                                            rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#forecast_data_json
+<https://engsep.github.io/dedalus-ontology/index-en.html#forecast_data_json> rdf:type owl:DatatypeProperty ;
+                                                                             rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Forecast> ;
+                                                                             rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#forecast_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#forecast_id> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Forecast> ;
+                                                                      rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#forecast_sensor_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#forecast_sensor_id> rdf:type owl:DatatypeProperty ;
+                                                                             rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Forecast> ;
+                                                                             rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#forecast_valid_for_date
+<https://engsep.github.io/dedalus-ontology/index-en.html#forecast_valid_for_date> rdf:type owl:DatatypeProperty ;
+                                                                                  rdfs:domain <https://engsep.github.io/dedalus-ontology/index-en.html#Forecast> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#user_address
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_address> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:domain <http://ontology.tno.nl/interconnect/user#User> ;
+                                                                       rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#user_community_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_community_id> rdf:type owl:DatatypeProperty ;
+                                                                            rdfs:domain <http://ontology.tno.nl/interconnect/user#User> ;
+                                                                            rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#user_email
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_email> rdf:type owl:DatatypeProperty ;
+                                                                     rdfs:domain <http://ontology.tno.nl/interconnect/user#User> ;
+                                                                     rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#user_first_name
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_first_name> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:domain <http://ontology.tno.nl/interconnect/user#User> ;
+                                                                          rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#user_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_id> rdf:type owl:DatatypeProperty ;
+                                                                  rdfs:domain <http://ontology.tno.nl/interconnect/user#User> ;
+                                                                  rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#user_last_name
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_last_name> rdf:type owl:DatatypeProperty ;
+                                                                         rdfs:domain <http://ontology.tno.nl/interconnect/user#User> ;
+                                                                         rdfs:range xsd:string .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#user_metering_point
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_metering_point> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:domain <http://ontology.tno.nl/interconnect/user#User> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#user_phone
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_phone> rdf:type owl:DatatypeProperty ;
+                                                                     rdfs:domain <http://ontology.tno.nl/interconnect/user#User> ;
+                                                                     rdfs:range xsd:nonNegativeInteger .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#user_substation_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_substation_id> rdf:type owl:DatatypeProperty ;
+                                                                             rdfs:domain <http://ontology.tno.nl/interconnect/user#User> ;
+                                                                             rdfs:range xsd:string .
+
+
 ###  https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#DataPointStorageSystem
 :DataPointStorageSystem rdf:type owl:DatatypeProperty ;
                         rdfs:subPropertyOf owl:topDataProperty ;
@@ -1290,6 +1738,172 @@ xsd:duration rdf:type rdfs:Datatype .
 <http://xmlns.com/foaf/0.1/Agent> rdf:type owl:Class ;
                                   rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
                                   rdfs:label "Agent"@en .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Asset
+<https://engsep.github.io/dedalus-ontology/index-en.html#Asset> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://w3id.org/dco#Device> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#CO2
+<https://engsep.github.io/dedalus-ontology/index-en.html#CO2> rdf:type owl:Class ;
+                                                              owl:equivalentClass <https://w3id.org/dco#CO2Concentration> ;
+                                                              rdfs:subClassOf <https://w3id.org/dco#Property> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity
+<https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf :Measurement .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Cloudiness
+<https://engsep.github.io/dedalus-ontology/index-en.html#Cloudiness> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <https://w3id.org/dco#Property> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Community
+<https://engsep.github.io/dedalus-ontology/index-en.html#Community> rdf:type owl:Class .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint
+<https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf :Measurement .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Date_Acquisition
+<https://engsep.github.io/dedalus-ontology/index-en.html#Date_Acquisition> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <https://w3id.org/dco#Time> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Date_Observed
+<https://engsep.github.io/dedalus-ontology/index-en.html#Date_Observed> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <https://w3id.org/dco#Time> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Direct_Sun
+<https://engsep.github.io/dedalus-ontology/index-en.html#Direct_Sun> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <https://w3id.org/dco#Property> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction
+<https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf :Measurement .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Energy
+<https://engsep.github.io/dedalus-ontology/index-en.html#Energy> rdf:type owl:Class ;
+                                                                 owl:equivalentClass <https://w3id.org/dco#EnergyPropertyAffordance> ;
+                                                                 rdfs:subClassOf <https://w3id.org/dco#Property> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility
+<https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://bigg-project.eu/ontology#TimeSeriesList> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Flow_Temperature
+<https://engsep.github.io/dedalus-ontology/index-en.html#Flow_Temperature> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <https://engsep.github.io/dedalus-ontology/index-en.html#Temperature> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Forecast
+<https://engsep.github.io/dedalus-ontology/index-en.html#Forecast> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf :Measurement .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Humidity
+<https://engsep.github.io/dedalus-ontology/index-en.html#Humidity> rdf:type owl:Class ;
+                                                                   owl:equivalentClass <https://w3id.org/dco#Humidity> ;
+                                                                   rdfs:subClassOf <https://w3id.org/dco#Property> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Indirect_Sun
+<https://engsep.github.io/dedalus-ontology/index-en.html#Indirect_Sun> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://w3id.org/dco#Property> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Power
+<https://engsep.github.io/dedalus-ontology/index-en.html#Power> rdf:type owl:Class ;
+                                                                owl:equivalentClass <https://w3id.org/dco#Power> ;
+                                                                rdfs:subClassOf <https://w3id.org/dco#Property> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Return_Temperature
+<https://engsep.github.io/dedalus-ontology/index-en.html#Return_Temperature> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <https://engsep.github.io/dedalus-ontology/index-en.html#Temperature> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Temperature
+<https://engsep.github.io/dedalus-ontology/index-en.html#Temperature> rdf:type owl:Class ;
+                                                                      owl:equivalentClass <https://w3id.org/dco#Temperature> ;
+                                                                      rdfs:subClassOf <https://w3id.org/dco#Property> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Volume
+<https://engsep.github.io/dedalus-ontology/index-en.html#Volume> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <https://w3id.org/dco#Property> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Volume_flow
+<https://engsep.github.io/dedalus-ontology/index-en.html#Volume_flow> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <https://w3id.org/dco#Property> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#Wind_Speed
+<https://engsep.github.io/dedalus-ontology/index-en.html#Wind_Speed> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <https://w3id.org/dco#Property> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#energy_cons
+<https://engsep.github.io/dedalus-ontology/index-en.html#energy_cons> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <https://engsep.github.io/dedalus-ontology/index-en.html#Energy> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#energy_pred
+<https://engsep.github.io/dedalus-ontology/index-en.html#energy_pred> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <https://engsep.github.io/dedalus-ontology/index-en.html#Energy> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#lightning
+<https://engsep.github.io/dedalus-ontology/index-en.html#lightning> rdf:type owl:Class ;
+                                                                    owl:equivalentClass <https://w3id.org/dco#Light> ;
+                                                                    rdfs:subClassOf <https://w3id.org/dco#Property> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_0_5
+<https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_0_5> rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf <https://w3id.org/dco#PartsPerMillion> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_10_0
+<https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_10_0> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf <https://w3id.org/dco#PartsPerMillion> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_1_0
+<https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_1_0> rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf <https://w3id.org/dco#PartsPerMillion> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_2_5
+<https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_2_5> rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf <https://w3id.org/dco#PartsPerMillion> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_4_0
+<https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_4_0> rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf <https://w3id.org/dco#PartsPerMillion> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#temperature_outdoor
+<https://engsep.github.io/dedalus-ontology/index-en.html#temperature_outdoor> rdf:type owl:Class ;
+                                                                              owl:equivalentClass <https://w3id.org/dco#OutdoorTemperature> ;
+                                                                              rdfs:subClassOf <https://w3id.org/dco#Property> .
+
+
+###  https://engsep.github.io/dedalus-ontology/index-en.html#tsv
+<https://engsep.github.io/dedalus-ontology/index-en.html#tsv> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <https://w3id.org/dco#Property> .
 
 
 ###  https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Celsius

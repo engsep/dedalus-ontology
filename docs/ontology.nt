@@ -766,6 +766,374 @@
 <http://bigg-project.eu/ontology#timeSeriesTimeAggregationFunction> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://bigg-project.eu/ontology#timeSeriesTimeAggregationFunction> <http://www.w3.org/2000/01/rdf-schema#label> "time series time aggregation function" .
 # 
+# https://engsep.github.io/dedalus-ontology/index-en.html#asset_description
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_description> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#asset_flexibility_asset
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_flexibility_asset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_flexibility_asset> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#asset_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#asset_latitude
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_latitude> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#asset_longitude
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_longitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_longitude> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#asset_max_power
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_max_power> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_max_power> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_max_power> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#real> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#asset_name
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_name> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#asset_properties
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_properties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_properties> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#asset_type
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_type> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#asset_uid
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_uid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_uid> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_uid> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#asset_user_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_user_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_user_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Asset> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#asset_user_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_timestamp
+<https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_timestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_timestamp> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_timestamp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_value
+<https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_value> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#community_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#community_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#community_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Community> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#community_name
+<https://engsep.github.io/dedalus-ontology/index-en.html#community_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#community_name> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Community> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_asset_uid
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_asset_uid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_asset_uid> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_name
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_name> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_server_timestamp
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_server_timestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_server_timestamp> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_server_timestamp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_timestamp
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_timestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_timestamp> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_timestamp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_unit
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_unit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_value
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_value> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#device_asset_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#device_asset_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#device_asset_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dco#Device> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#device_asset_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#device_description
+<https://engsep.github.io/dedalus-ontology/index-en.html#device_description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#device_description> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dco#Device> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#device_description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#device_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#device_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#device_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dco#Device> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#device_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_data_json
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_data_json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_data_json> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dco#ElectricityConsumptionEnergyPropertyAffordance> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_data_json> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dco#ElectricityConsumptionPowerPropertyAffordance> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_data_json> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dco#ElectricityProductionEnergyPropertyAffordance> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_data_json> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dco#ElectricityProductionPowerPropertyAffordance> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_data_json> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dco#ElectricityConsumptionEnergyPropertyAffordance> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dco#ElectricityConsumptionPowerPropertyAffordance> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dco#ElectricityProductionEnergyPropertyAffordance> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dco#ElectricityProductionPowerPropertyAffordance> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_valid_for_date
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_valid_for_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_valid_for_date> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dco#ElectricityConsumptionEnergyPropertyAffordance> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_valid_for_date> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dco#ElectricityConsumptionPowerPropertyAffordance> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_valid_for_date> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dco#ElectricityProductionEnergyPropertyAffordance> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_valid_for_date> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/dco#ElectricityProductionPowerPropertyAffordance> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_amount
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_amount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_amount> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_amount> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_asset_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_asset_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_asset_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_asset_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_charged
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_charged> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_charged> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_connector_pk
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_connector_pk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_connector_pk> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_duration
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_duration> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_fee
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_fee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_fee> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_amount
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_amount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_amount> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_amount> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_duration
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_duration> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_fee
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_fee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_fee> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_location_pk
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_location_pk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_location_pk> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_pk
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_pk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_pk> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_started_at
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_started_at> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_started_at> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_started_at> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_stop_reason
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_stop_reason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_stop_reason> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_stop_reason> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_asset_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_asset_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_asset_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_buyer
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_buyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_buyer> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_request_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_request_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_request_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_seller
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_seller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_seller> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_status
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_status> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_end_time
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_end_time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_end_time> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_end_time> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_buyer
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_buyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_buyer> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_contract_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_contract_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_contract_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_price
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_price> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_status
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_status> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_value
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_value> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_end_date
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_end_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_end_date> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_end_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_start_date
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_start_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_start_date> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_start_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_substation
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_substation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_substation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_value
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_value> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_start_time
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_start_time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_start_time> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_start_time> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_status
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_status> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_unit
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_unit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_value
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_value> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#forecast_data_json
+<https://engsep.github.io/dedalus-ontology/index-en.html#forecast_data_json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#forecast_data_json> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Forecast> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#forecast_data_json> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#forecast_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#forecast_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#forecast_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Forecast> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#forecast_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#forecast_sensor_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#forecast_sensor_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#forecast_sensor_id> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Forecast> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#forecast_sensor_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#forecast_valid_for_date
+<https://engsep.github.io/dedalus-ontology/index-en.html#forecast_valid_for_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#forecast_valid_for_date> <http://www.w3.org/2000/01/rdf-schema#domain> <https://engsep.github.io/dedalus-ontology/index-en.html#Forecast> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#user_address
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_address> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.tno.nl/interconnect/user#User> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_address> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#user_community_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_community_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_community_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.tno.nl/interconnect/user#User> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_community_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#user_email
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_email> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.tno.nl/interconnect/user#User> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_email> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#user_first_name
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_first_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_first_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.tno.nl/interconnect/user#User> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_first_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#user_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.tno.nl/interconnect/user#User> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#user_last_name
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_last_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_last_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.tno.nl/interconnect/user#User> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_last_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#user_metering_point
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_metering_point> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_metering_point> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.tno.nl/interconnect/user#User> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#user_phone
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_phone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_phone> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.tno.nl/interconnect/user#User> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_phone> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#user_substation_id
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_substation_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_substation_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.tno.nl/interconnect/user#User> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#user_substation_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
 # https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#DataPointStorageSystem
 <https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#DataPointStorageSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#DataPointStorageSystem> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
@@ -1133,6 +1501,140 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://xmlns.com/foaf/0.1/> .
 <http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@en .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Asset
+<https://engsep.github.io/dedalus-ontology/index-en.html#Asset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Asset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#Device> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#CO2
+<https://engsep.github.io/dedalus-ontology/index-en.html#CO2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#CO2> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/dco#CO2Concentration> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#CO2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#Property> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity
+<https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Cloudiness
+<https://engsep.github.io/dedalus-ontology/index-en.html#Cloudiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Cloudiness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#Property> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Community
+<https://engsep.github.io/dedalus-ontology/index-en.html#Community> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint
+<https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Date_Acquisition
+<https://engsep.github.io/dedalus-ontology/index-en.html#Date_Acquisition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Date_Acquisition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#Time> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Date_Observed
+<https://engsep.github.io/dedalus-ontology/index-en.html#Date_Observed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Date_Observed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#Time> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Direct_Sun
+<https://engsep.github.io/dedalus-ontology/index-en.html#Direct_Sun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Direct_Sun> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#Property> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction
+<https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Energy
+<https://engsep.github.io/dedalus-ontology/index-en.html#Energy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Energy> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/dco#EnergyPropertyAffordance> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Energy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#Property> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility
+<https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bigg-project.eu/ontology#TimeSeriesList> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Flow_Temperature
+<https://engsep.github.io/dedalus-ontology/index-en.html#Flow_Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Flow_Temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://engsep.github.io/dedalus-ontology/index-en.html#Temperature> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Forecast
+<https://engsep.github.io/dedalus-ontology/index-en.html#Forecast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Forecast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Humidity
+<https://engsep.github.io/dedalus-ontology/index-en.html#Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Humidity> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/dco#Humidity> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Humidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#Property> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Indirect_Sun
+<https://engsep.github.io/dedalus-ontology/index-en.html#Indirect_Sun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Indirect_Sun> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#Property> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Power
+<https://engsep.github.io/dedalus-ontology/index-en.html#Power> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Power> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/dco#Power> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Power> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#Property> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Return_Temperature
+<https://engsep.github.io/dedalus-ontology/index-en.html#Return_Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Return_Temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://engsep.github.io/dedalus-ontology/index-en.html#Temperature> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Temperature
+<https://engsep.github.io/dedalus-ontology/index-en.html#Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Temperature> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/dco#Temperature> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#Property> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Volume
+<https://engsep.github.io/dedalus-ontology/index-en.html#Volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Volume> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#Property> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Volume_flow
+<https://engsep.github.io/dedalus-ontology/index-en.html#Volume_flow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Volume_flow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#Property> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#Wind_Speed
+<https://engsep.github.io/dedalus-ontology/index-en.html#Wind_Speed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#Wind_Speed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#Property> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#energy_cons
+<https://engsep.github.io/dedalus-ontology/index-en.html#energy_cons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#energy_cons> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://engsep.github.io/dedalus-ontology/index-en.html#Energy> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#energy_pred
+<https://engsep.github.io/dedalus-ontology/index-en.html#energy_pred> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#energy_pred> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://engsep.github.io/dedalus-ontology/index-en.html#Energy> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#lightning
+<https://engsep.github.io/dedalus-ontology/index-en.html#lightning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#lightning> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/dco#Light> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#lightning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#Property> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_0_5
+<https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_0_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_0_5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#PartsPerMillion> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_10_0
+<https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_10_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_10_0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#PartsPerMillion> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_1_0
+<https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_1_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_1_0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#PartsPerMillion> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_2_5
+<https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_2_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_2_5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#PartsPerMillion> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_4_0
+<https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_4_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_4_0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#PartsPerMillion> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#temperature_outdoor
+<https://engsep.github.io/dedalus-ontology/index-en.html#temperature_outdoor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#temperature_outdoor> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/dco#OutdoorTemperature> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#temperature_outdoor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#Property> .
+# 
+# https://engsep.github.io/dedalus-ontology/index-en.html#tsv
+<https://engsep.github.io/dedalus-ontology/index-en.html#tsv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://engsep.github.io/dedalus-ontology/index-en.html#tsv> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dco#Property> .
 # 
 # https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Celsius
 <https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Celsius> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

@@ -906,6 +906,831 @@
     "@value" : "Agent"
   } ]
 }, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Asset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#Device"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#CO2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#Property"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/dco#CO2Concentration"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Cloudiness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#Property"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Community",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Date_Acquisition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#Time"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Date_Observed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#Time"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Direct_Sun",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#Property"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Energy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#Property"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/dco#EnergyPropertyAffordance"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bigg-project.eu/ontology#TimeSeriesList"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flow_Temperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Temperature"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Forecast",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Humidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#Property"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/dco#Humidity"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Indirect_Sun",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#Property"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Power",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#Property"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/dco#Power"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Return_Temperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Temperature"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Temperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#Property"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/dco#Temperature"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Volume",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#Property"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Volume_flow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#Property"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Wind_Speed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#Property"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#asset_description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Asset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#asset_flexibility_asset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Asset"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#asset_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Asset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#asset_latitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Asset"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#asset_longitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Asset"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#asset_max_power",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Asset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#real"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#asset_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Asset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#asset_properties",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Asset"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#asset_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Asset"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#asset_uid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Asset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#asset_user_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Asset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_timestamp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#community_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Community"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#community_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Community"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_asset_uid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_server_timestamp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_timestamp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#device_asset_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/dco#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#device_description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/dco#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#device_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/dco#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_data_json",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/dco#ElectricityConsumptionEnergyPropertyAffordance"
+  }, {
+    "@id" : "https://w3id.org/dco#ElectricityConsumptionPowerPropertyAffordance"
+  }, {
+    "@id" : "https://w3id.org/dco#ElectricityProductionEnergyPropertyAffordance"
+  }, {
+    "@id" : "https://w3id.org/dco#ElectricityProductionPowerPropertyAffordance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/dco#ElectricityConsumptionEnergyPropertyAffordance"
+  }, {
+    "@id" : "https://w3id.org/dco#ElectricityConsumptionPowerPropertyAffordance"
+  }, {
+    "@id" : "https://w3id.org/dco#ElectricityProductionEnergyPropertyAffordance"
+  }, {
+    "@id" : "https://w3id.org/dco#ElectricityProductionPowerPropertyAffordance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_valid_for_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/dco#ElectricityConsumptionEnergyPropertyAffordance"
+  }, {
+    "@id" : "https://w3id.org/dco#ElectricityConsumptionPowerPropertyAffordance"
+  }, {
+    "@id" : "https://w3id.org/dco#ElectricityProductionEnergyPropertyAffordance"
+  }, {
+    "@id" : "https://w3id.org/dco#ElectricityProductionPowerPropertyAffordance"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#energy_cons",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Energy"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#energy_pred",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Energy"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_amount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_asset_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_charged",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_connector_pk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_duration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_fee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_amount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_duration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_fee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_location_pk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_pk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_started_at",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_stop_reason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_asset_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_buyer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_request_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_seller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_end_time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_buyer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_contract_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_price",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_end_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_start_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_substation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_start_time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#forecast_data_json",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Forecast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#forecast_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Forecast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#forecast_sensor_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Forecast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#forecast_valid_for_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#Forecast"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#lightning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#Property"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/dco#Light"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_0_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#PartsPerMillion"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_10_0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#PartsPerMillion"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_1_0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#PartsPerMillion"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_2_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#PartsPerMillion"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_4_0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#PartsPerMillion"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#temperature_outdoor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#Property"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/dco#OutdoorTemperature"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#tsv",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/dco#Property"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#user_address",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.tno.nl/interconnect/user#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#user_community_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.tno.nl/interconnect/user#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#user_email",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.tno.nl/interconnect/user#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#user_first_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.tno.nl/interconnect/user#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#user_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.tno.nl/interconnect/user#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#user_last_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.tno.nl/interconnect/user#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#user_metering_point",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.tno.nl/interconnect/user#User"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#user_phone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.tno.nl/interconnect/user#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+  } ]
+}, {
+  "@id" : "https://engsep.github.io/dedalus-ontology/index-en.html#user_substation_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.tno.nl/interconnect/user#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
   "@id" : "https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
 }, {
