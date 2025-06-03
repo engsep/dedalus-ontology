@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#"
-     xml:base="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus"
+<rdf:RDF xmlns="https://engsep.github.io/dedalus-ontology/index-en.html#"
+     xml:base="https://engsep.github.io/dedalus-ontology/index-en.html"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -8,7 +8,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:schema="http://schema.org/">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus"/>
+    <owl:Ontology rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html"/>
     
 
 
@@ -1363,774 +1363,6 @@
     
 
 
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#asset_description -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#asset_description">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Asset"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#asset_flexibility_asset -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#asset_flexibility_asset">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Asset"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#asset_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#asset_id">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Asset"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#asset_latitude -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#asset_latitude">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Asset"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#asset_longitude -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#asset_longitude">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Asset"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#asset_max_power -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#asset_max_power">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Asset"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#real"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#asset_name -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#asset_name">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Asset"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#asset_properties -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#asset_properties">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Asset"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#asset_type -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#asset_type">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Asset"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#asset_uid -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#asset_uid">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Asset"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#asset_user_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#asset_user_id">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Asset"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_id">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_timestamp -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_timestamp">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_value -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#carbon_intensity_value">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#community_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#community_id">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Community"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#community_name -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#community_name">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Community"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_asset_uid -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_asset_uid">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_id">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_id">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_name -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_sensor_name">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_server_timestamp -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_server_timestamp">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_timestamp -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_timestamp">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_unit -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_unit">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_value -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#datapoint_value">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#device_asset_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#device_asset_id">
-        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#device_description -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#device_description">
-        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#device_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#device_id">
-        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_data_json -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_data_json">
-        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityConsumptionEnergyPropertyAffordance"/>
-        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityConsumptionPowerPropertyAffordance"/>
-        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityProductionEnergyPropertyAffordance"/>
-        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityProductionPowerPropertyAffordance"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_id">
-        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityConsumptionEnergyPropertyAffordance"/>
-        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityConsumptionPowerPropertyAffordance"/>
-        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityProductionEnergyPropertyAffordance"/>
-        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityProductionPowerPropertyAffordance"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_valid_for_date -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#electricity_prices_valid_for_date">
-        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityConsumptionEnergyPropertyAffordance"/>
-        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityConsumptionPowerPropertyAffordance"/>
-        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityProductionEnergyPropertyAffordance"/>
-        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityProductionPowerPropertyAffordance"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_amount -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_amount">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_asset_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_asset_id">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_charged -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_charged">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_connector_pk -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_connector_pk">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_duration -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_duration">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_fee -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_fee">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_id">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_amount -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_amount">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_duration -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_duration">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_fee -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_idle_fee">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_location_pk -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_location_pk">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_pk -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_pk">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_started_at -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_started_at">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_stop_reason -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#evc_transaction_stop_reason">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_asset_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_asset_id">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_buyer -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_buyer">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_id">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_request_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_request_id">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_seller -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_seller">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_status -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_contract_status">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_end_time -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_end_time">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_id">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_buyer -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_buyer">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_contract_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_contract_id">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_id">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_price -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_price">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_status -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_status">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_value -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_offer_value">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_end_date -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_end_date">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_id">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_start_date -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_start_date">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_substation -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_substation">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_value -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_request_value">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_start_time -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_start_time">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_status -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_status">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_unit -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_unit">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_value -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#flexibility_value">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#forecast_data_json -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#forecast_data_json">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Forecast"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#forecast_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#forecast_id">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Forecast"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#forecast_sensor_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#forecast_sensor_id">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Forecast"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#forecast_valid_for_date -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#forecast_valid_for_date">
-        <rdfs:domain rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Forecast"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#user_address -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#user_address">
-        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#user_community_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#user_community_id">
-        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#user_email -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#user_email">
-        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#user_first_name -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#user_first_name">
-        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#user_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#user_id">
-        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#user_last_name -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#user_last_name">
-        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#user_metering_point -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#user_metering_point">
-        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#user_phone -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#user_phone">
-        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#user_substation_id -->
-
-
-    <owl:DatatypeProperty rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#user_substation_id">
-        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#DataPointStorageSystem -->
 
 
@@ -2140,6 +1372,774 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="es">Esta relación da como lugar el string del TimeSeries, el cual será el índice para así acceder a la base de datos y buscar el valor deseado de los dispositivos de monitorización.</rdfs:comment>
         <rdfs:comment xml:lang="en">This relation works pointing out the String value of a TimeSeriesList. That string will be used like an index for searching the values in a database.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_description -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_description">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Asset"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_flexibility_asset -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_flexibility_asset">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Asset"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_id">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Asset"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_latitude -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_latitude">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Asset"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_longitude -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_longitude">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Asset"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_max_power -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_max_power">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Asset"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#real"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_name -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_name">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Asset"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_properties -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_properties">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Asset"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_type -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_type">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Asset"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_uid -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_uid">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Asset"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_user_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#asset_user_id">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Asset"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#carbon_intensity_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#carbon_intensity_id">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#CarbonIntensity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#carbon_intensity_timestamp -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#carbon_intensity_timestamp">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#CarbonIntensity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#carbon_intensity_value -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#carbon_intensity_value">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#CarbonIntensity"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#community_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#community_id">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Community"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#community_name -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#community_name">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Community"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#datapoint_asset_uid -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#datapoint_asset_uid">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Datapoint"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#datapoint_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#datapoint_id">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Datapoint"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#datapoint_sensor_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#datapoint_sensor_id">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Datapoint"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#datapoint_sensor_name -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#datapoint_sensor_name">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Datapoint"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#datapoint_server_timestamp -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#datapoint_server_timestamp">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Datapoint"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#datapoint_timestamp -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#datapoint_timestamp">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Datapoint"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#datapoint_unit -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#datapoint_unit">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Datapoint"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#datapoint_value -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#datapoint_value">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Datapoint"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#device_asset_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#device_asset_id">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#device_description -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#device_description">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#device_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#device_id">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#electricity_prices_data_json -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#electricity_prices_data_json">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityConsumptionEnergyPropertyAffordance"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityConsumptionPowerPropertyAffordance"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityProductionEnergyPropertyAffordance"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityProductionPowerPropertyAffordance"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#electricity_prices_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#electricity_prices_id">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityConsumptionEnergyPropertyAffordance"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityConsumptionPowerPropertyAffordance"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityProductionEnergyPropertyAffordance"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityProductionPowerPropertyAffordance"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#electricity_prices_valid_for_date -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#electricity_prices_valid_for_date">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityConsumptionEnergyPropertyAffordance"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityConsumptionPowerPropertyAffordance"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityProductionEnergyPropertyAffordance"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#ElectricityProductionPowerPropertyAffordance"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_amount -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_amount">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EVCTransaction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_asset_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_asset_id">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EVCTransaction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_charged -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_charged">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EVCTransaction"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_connector_pk -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_connector_pk">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EVCTransaction"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_duration -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_duration">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EVCTransaction"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_fee -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_fee">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EVCTransaction"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_id">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EVCTransaction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_idle_amount -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_idle_amount">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EVCTransaction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_idle_duration -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_idle_duration">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EVCTransaction"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_idle_fee -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_idle_fee">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EVCTransaction"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_location_pk -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_location_pk">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EVCTransaction"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_pk -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_pk">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EVCTransaction"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_started_at -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_started_at">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EVCTransaction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_stop_reason -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#evc_transaction_stop_reason">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EVCTransaction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_asset_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_asset_id">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_contract_buyer -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_contract_buyer">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_contract_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_contract_id">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_contract_request_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_contract_request_id">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_contract_seller -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_contract_seller">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_contract_status -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_contract_status">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_end_time -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_end_time">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_id">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_offer_buyer -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_offer_buyer">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_offer_contract_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_offer_contract_id">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_offer_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_offer_id">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_offer_price -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_offer_price">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_offer_status -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_offer_status">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_offer_value -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_offer_value">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_request_end_date -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_request_end_date">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_request_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_request_id">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_request_start_date -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_request_start_date">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_request_substation -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_request_substation">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_request_value -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_request_value">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_start_time -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_start_time">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_status -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_status">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_unit -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_unit">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_value -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#flexibility_value">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#forecast_data_json -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#forecast_data_json">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Forecast"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#forecast_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#forecast_id">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Forecast"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#forecast_sensor_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#forecast_sensor_id">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Forecast"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#forecast_valid_for_date -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#forecast_valid_for_date">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Forecast"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_address -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_address">
+        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_community_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_community_id">
+        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_email -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_email">
+        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_first_name -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_first_name">
+        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_id">
+        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_last_name -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_last_name">
+        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_metering_point -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_metering_point">
+        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_phone -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_phone">
+        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_substation_id -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#user_substation_id">
+        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -2808,295 +2808,20 @@
     
 
 
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Asset -->
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Asset -->
 
 
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Asset">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Asset">
         <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Device"/>
     </owl:Class>
     
 
 
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#CO2 -->
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#CarbonIntensity -->
 
 
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#CO2">
-        <owl:equivalentClass rdf:resource="https://w3id.org/dco#CO2Concentration"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Carbon_Intensity">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#CarbonIntensity">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Cloudiness -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Cloudiness">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Community -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Community"/>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Datapoint">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Date_Acquisition -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Date_Acquisition">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Time"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Date_Observed -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Date_Observed">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Time"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Direct_Sun -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Direct_Sun">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#EVC_Transaction">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Energy -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Energy">
-        <owl:equivalentClass rdf:resource="https://w3id.org/dco#EnergyPropertyAffordance"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Flexibility">
-        <rdfs:subClassOf rdf:resource="http://bigg-project.eu/ontology#TimeSeriesList"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Flow_Temperature -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Flow_Temperature">
-        <rdfs:subClassOf rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Temperature"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Forecast -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Forecast">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Humidity -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Humidity">
-        <owl:equivalentClass rdf:resource="https://w3id.org/dco#Humidity"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Indirect_Sun -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Indirect_Sun">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Power -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Power">
-        <owl:equivalentClass rdf:resource="https://w3id.org/dco#Power"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Return_Temperature -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Return_Temperature">
-        <rdfs:subClassOf rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Temperature"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Temperature -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Temperature">
-        <owl:equivalentClass rdf:resource="https://w3id.org/dco#Temperature"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Volume -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Volume">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Volume_flow -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Volume_flow">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#Wind_Speed -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#Wind_Speed">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#energy_cons -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#energy_cons">
-        <rdfs:subClassOf rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Energy"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#energy_pred -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#energy_pred">
-        <rdfs:subClassOf rdf:resource="https://engsep.github.io/dedalus-ontology/index-en.html#Energy"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#lightning -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#lightning">
-        <owl:equivalentClass rdf:resource="https://w3id.org/dco#Light"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_0_5 -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_0_5">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#PartsPerMillion"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_10_0 -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_10_0">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#PartsPerMillion"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_1_0 -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_1_0">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#PartsPerMillion"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_2_5 -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_2_5">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#PartsPerMillion"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_4_0 -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#particle_matter_number_concentration_4_0">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#PartsPerMillion"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#temperature_outdoor -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#temperature_outdoor">
-        <owl:equivalentClass rdf:resource="https://w3id.org/dco#OutdoorTemperature"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
-    </owl:Class>
-    
-
-
-    <!-- https://engsep.github.io/dedalus-ontology/index-en.html#tsv -->
-
-
-    <owl:Class rdf:about="https://engsep.github.io/dedalus-ontology/index-en.html#tsv">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
     </owl:Class>
     
 
@@ -3110,11 +2835,126 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Cloudiness -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Cloudiness">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Community -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Community"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Datapoint -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Datapoint">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#DateAcquisition -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#DateAcquisition">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#DateObserved -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#DateObserved">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#DirectSun -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#DirectSun">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EVCTransaction -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EVCTransaction">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EnergyConsumption -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EnergyConsumption">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#EnergyPropertyAffordance"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EnergyProduction -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#EnergyProduction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#EnergyPropertyAffordance"/>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Fahrenheit -->
 
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Fahrenheit">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#RadiationUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Flexibility">
+        <rdfs:subClassOf rdf:resource="http://bigg-project.eu/ontology#TimeSeriesList"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#FlowTemperature -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#FlowTemperature">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Forecast -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Forecast">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#IndirectSun -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#IndirectSun">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
     </owl:Class>
     
 
@@ -3159,6 +2999,114 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#RadiationUnit">
         <rdfs:subClassOf rdf:resource="https://w3id.org/dco#UnitsOfMeasurements"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#RelativeHumidity -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#RelativeHumidity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Humidity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#ReturnTemperature -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#ReturnTemperature">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Volume -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Volume">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#VolumeFlow -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#VolumeFlow">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#WindSpeed -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#WindSpeed">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#lightning -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#lightning">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Light"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#particle_matter_number_concentration_0_5 -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#particle_matter_number_concentration_0_5">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#PartsPerMillion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#particle_matter_number_concentration_10_0 -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#particle_matter_number_concentration_10_0">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#PartsPerMillion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#particle_matter_number_concentration_1_0 -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#particle_matter_number_concentration_1_0">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#PartsPerMillion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#particle_matter_number_concentration_2_5 -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#particle_matter_number_concentration_2_5">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#PartsPerMillion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#particle_matter_number_concentration_4_0 -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#particle_matter_number_concentration_4_0">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#PartsPerMillion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#tsv -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#tsv">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
     </owl:Class>
     
 
@@ -5269,10 +5217,10 @@
         <rdfs:label>photovoltaicPanel</rdfs:label>
     </owl:Class>
     <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
     </rdf:Description>
     <rdf:Description>
-        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
     </rdf:Description>
 </rdf:RDF>
 
